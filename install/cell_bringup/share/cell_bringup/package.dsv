@@ -1,0 +1,9 @@
+source;share/cell_bringup/hook/pythonpath.ps1
+source;share/cell_bringup/hook/pythonpath.dsv
+source;share/cell_bringup/hook/pythonpath.sh
+source;share/cell_bringup/hook/ament_prefix_path.ps1
+source;share/cell_bringup/hook/ament_prefix_path.dsv
+source;share/cell_bringup/hook/ament_prefix_path.sh
+source;../../build/cell_bringup/share/cell_bringup/hook/pythonpath_develop.ps1
+source;../../build/cell_bringup/share/cell_bringup/hook/pythonpath_develop.dsv
+source;../../build/cell_bringup/share/cell_bringup/hook/pythonpath_develop.sh
