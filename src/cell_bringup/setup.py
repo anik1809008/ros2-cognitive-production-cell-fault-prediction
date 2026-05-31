@@ -27,6 +27,8 @@ setup(
         'console_scripts': [
             'simple_publisher = cell_bringup.simple_publisher:main',
             'simple_subscriber = cell_bringup.simple_subscriber:main',
+            'cell_state_simulator = cell_bringup.cell_state_simulator:main',
+            'delay_detector = cell_bringup.delay_detector:main',
         ],
     },
 )
