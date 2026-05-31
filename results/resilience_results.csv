@@ -1,0 +1,292 @@
+timestamp,event,delayed_cell,target_cell,workload_shift_percent,recovery_time,resilience_score,system_status
+1,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+2,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+3,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+4,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+5,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+6,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+7,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+8,adaptive_recovery,cell_1,cell_2,40,3.61,0.64,Production continued through adaptive workload sharing
+9,adaptive_recovery,cell_1,cell_2,40,3.91,0.61,Production continued through adaptive workload sharing
+10,adaptive_recovery,cell_1,cell_2,40,4.04,0.6,Production continued through adaptive workload sharing
+11,adaptive_recovery,cell_1,cell_2,40,2.18,0.78,Production continued through adaptive workload sharing
+12,adaptive_recovery,cell_1,cell_2,40,4.85,0.52,Production continued through adaptive workload sharing
+13,adaptive_recovery,cell_1,cell_2,40,2.14,0.79,Production continued through adaptive workload sharing
+14,adaptive_recovery,cell_1,cell_2,40,4.98,0.5,Production continued through adaptive workload sharing
+15,adaptive_recovery,cell_1,cell_2,40,2.71,0.73,Production continued through adaptive workload sharing
+16,adaptive_recovery,cell_1,cell_2,40,4.7,0.53,Production continued through adaptive workload sharing
+17,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+18,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+19,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+20,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+21,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+22,adaptive_recovery,cell_2,cell_1,40,4.3,0.57,Production continued through adaptive workload sharing
+23,adaptive_recovery,cell_2,cell_1,40,3.79,0.62,Production continued through adaptive workload sharing
+24,adaptive_recovery,cell_2,cell_1,40,3.3,0.67,Production continued through adaptive workload sharing
+25,adaptive_recovery,cell_2,cell_1,40,4.33,0.57,Production continued through adaptive workload sharing
+26,adaptive_recovery,cell_2,cell_1,40,4.96,0.5,Production continued through adaptive workload sharing
+27,adaptive_recovery,cell_2,cell_1,40,2.37,0.76,Production continued through adaptive workload sharing
+28,adaptive_recovery,cell_2,cell_1,40,4.56,0.54,Production continued through adaptive workload sharing
+29,adaptive_recovery,cell_2,cell_1,40,3.46,0.65,Production continued through adaptive workload sharing
+30,adaptive_recovery,cell_2,cell_1,40,4.78,0.52,Production continued through adaptive workload sharing
+31,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+32,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+33,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+34,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+35,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+36,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+37,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+38,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+39,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+40,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+41,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+42,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+43,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+44,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+45,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+46,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+47,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+48,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+49,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+50,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+51,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+52,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+53,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+54,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+55,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+56,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+57,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+58,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+59,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+60,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+61,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+62,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+63,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+64,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+65,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+66,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+67,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+68,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+69,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+70,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+71,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+72,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+73,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+74,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+75,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+76,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+77,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+78,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+79,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+80,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+81,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+82,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+83,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+84,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+85,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+86,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+87,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+88,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+89,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+90,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+91,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+92,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+93,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+94,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+95,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+96,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+97,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+98,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+99,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+100,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+101,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+102,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+103,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+104,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+105,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+106,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+107,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+108,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+109,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+110,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+111,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+112,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+113,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+114,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+115,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+116,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+117,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+118,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+119,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+120,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+121,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+122,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+123,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+124,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+125,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+126,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+127,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+128,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+129,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+130,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+131,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+132,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+133,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+134,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+135,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+136,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+137,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+138,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+139,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+140,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+141,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+142,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+1,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+2,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+3,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+4,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+5,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+6,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+7,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+8,adaptive_recovery,cell_1,cell_2,40,4.23,0.58,Production continued through adaptive workload sharing
+9,adaptive_recovery,cell_1,cell_2,40,3.34,0.67,Production continued through adaptive workload sharing
+10,adaptive_recovery,cell_1,cell_2,40,4.53,0.55,Production continued through adaptive workload sharing
+11,adaptive_recovery,cell_1,cell_2,40,4.47,0.55,Production continued through adaptive workload sharing
+12,adaptive_recovery,cell_1,cell_2,40,4.65,0.53,Production continued through adaptive workload sharing
+13,adaptive_recovery,cell_1,cell_2,40,4.75,0.53,Production continued through adaptive workload sharing
+14,adaptive_recovery,cell_1,cell_2,40,3.8,0.62,Production continued through adaptive workload sharing
+15,adaptive_recovery,cell_1,cell_2,40,4.23,0.58,Production continued through adaptive workload sharing
+16,adaptive_recovery,cell_1,cell_2,40,3.37,0.66,Production continued through adaptive workload sharing
+17,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+18,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+19,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+20,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+21,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+22,adaptive_recovery,cell_2,cell_1,40,2.56,0.74,Production continued through adaptive workload sharing
+23,adaptive_recovery,cell_2,cell_1,40,3.36,0.66,Production continued through adaptive workload sharing
+24,adaptive_recovery,cell_2,cell_1,40,3.66,0.63,Production continued through adaptive workload sharing
+25,adaptive_recovery,cell_2,cell_1,40,2.44,0.76,Production continued through adaptive workload sharing
+26,adaptive_recovery,cell_2,cell_1,40,2.33,0.77,Production continued through adaptive workload sharing
+27,adaptive_recovery,cell_2,cell_1,40,3.22,0.68,Production continued through adaptive workload sharing
+28,adaptive_recovery,cell_2,cell_1,40,2.37,0.76,Production continued through adaptive workload sharing
+29,adaptive_recovery,cell_2,cell_1,40,4.54,0.55,Production continued through adaptive workload sharing
+30,adaptive_recovery,cell_2,cell_1,40,3.25,0.68,Production continued through adaptive workload sharing
+31,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+32,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+33,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+34,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+35,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+36,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+37,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+38,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+39,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+40,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+41,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+42,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+43,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+44,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+45,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+46,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+47,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+48,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+49,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+50,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+51,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+52,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+53,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+54,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+55,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+56,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+57,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+58,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+59,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+60,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+61,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+62,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+63,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+64,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+65,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+66,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+67,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+68,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+69,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+70,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+71,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+72,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+73,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+74,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+75,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+76,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+77,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+78,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+79,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+80,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+81,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+82,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+83,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+84,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+85,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+86,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+87,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+88,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+89,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+90,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+91,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+92,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+93,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+94,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+95,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+96,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+97,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+98,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+99,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+100,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+101,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+102,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+103,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+104,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+105,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+106,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+107,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+108,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+109,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+110,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+111,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+112,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+113,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+114,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+115,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+116,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+117,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+118,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+119,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+120,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+121,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+122,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+123,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+124,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+125,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+126,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+127,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+128,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+129,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+130,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+131,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+132,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+133,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+134,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+135,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+136,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+137,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+138,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+139,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+140,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+141,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+142,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+143,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+144,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+145,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+146,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+147,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+148,normal_operation,none,none,0,0.0,1.0,Both cells operating normally
+149,normal_operation,none,none,0,0.0,1.0,Both cells operating normally

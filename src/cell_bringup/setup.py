@@ -1,5 +1,6 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
-
 package_name = 'cell_bringup'
 
 setup(
@@ -9,11 +10,15 @@ setup(
     data_files=[
         (
             'share/ament_index/resource_index/packages',
-            ['resource/' + package_name],
+           ['resource/' + package_name],
         ),
         (
-            'share/' + package_name,
-            ['package.xml'],
+           'share/' + package_name,
+           ['package.xml'],
+        ),
+        (
+           os.path.join('share', package_name, 'launch'),
+           glob('launch/*.launch.py'),
         ),
     ],
     install_requires=['setuptools'],
@@ -31,6 +36,7 @@ setup(
             'delay_detector = cell_bringup.delay_detector:main',
             'adaptive_reallocator = cell_bringup.adaptive_reallocator:main',
             'resilience_score = cell_bringup.resilience_score:main',
+            'experiment_logger = cell_bringup.experiment_logger:main',
         ],
     },
 )
