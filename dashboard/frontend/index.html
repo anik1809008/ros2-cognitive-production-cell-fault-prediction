@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-Driven Digital Twin Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Driven Resilient Digital Twin Dashboard</h1>
+        <p>ROS 2 + Gazebo Smart Manufacturing Cell Monitoring</p>
+    </header>
+
+    <main class="dashboard-grid">
+        <section class="card status-card">
+            <h2>System Status</h2>
+            <p><strong>Connection:</strong> <span id="connection">Waiting...</span></p>
+            <p><strong>Last Update:</strong> <span id="lastUpdate">--</span></p>
+            <p><strong>Mode:</strong> <span id="systemMode">--</span></p>
+        </section>
+
+        <section class="card">
+            <h2>Cell 1</h2>
+            <p><strong>Status:</strong> <span id="cell1Status">--</span></p>
+            <p><strong>Task Time:</strong> <span id="cell1TaskTime">--</span> sec</p>
+            <p><strong>Workload:</strong> <span id="cell1Workload">--</span>%</p>
+        </section>
+
+        <section class="card">
+            <h2>Cell 2</h2>
+            <p><strong>Status:</strong> <span id="cell2Status">--</span></p>
+            <p><strong>Task Time:</strong> <span id="cell2TaskTime">--</span> sec</p>
+            <p><strong>Workload:</strong> <span id="cell2Workload">--</span>%</p>
+        </section>
+
+        <section class="card warning-card">
+            <h2>Delay Detection</h2>
+            <p><strong>Delay Detected:</strong> <span id="delayDetected">--</span></p>
+            <p><strong>Delayed Cell:</strong> <span id="delayedCell">--</span></p>
+            <p><strong>Message:</strong> <span id="delayMessage">--</span></p>
+        </section>
+
+        <section class="card decision-card">
+            <h2>Adaptive Reallocation</h2>
+            <p><strong>Required:</strong> <span id="reallocationRequired">--</span></p>
+            <p><strong>Source Cell:</strong> <span id="sourceCell">--</span></p>
+            <p><strong>Target Cell:</strong> <span id="targetCell">--</span></p>
+            <p><strong>Workload Shift:</strong> <span id="workloadShift">--</span>%</p>
+            <p><strong>Action:</strong> <span id="recoveryAction">--</span></p>
+        </section>
+
+        <section class="card score-card">
+            <h2>Resilience Score</h2>
+            <div class="score-circle">
+                <span id="resilienceScore">--</span>
+            </div>
+            <p><strong>Event:</strong> <span id="eventType">--</span></p>
+            <p><strong>Recovery Time:</strong> <span id="recoveryTime">--</span> sec</p>
+            <p><strong>Status:</strong> <span id="systemStatus">--</span></p>
+        </section>
+
+        <section class="card log-card">
+            <h2>Live Event Log</h2>
+            <pre id="rawJson">{ Waiting for ROS data... }</pre>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
