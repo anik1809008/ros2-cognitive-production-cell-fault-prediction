@@ -18,8 +18,8 @@ def generate_launch_description():
         ),
         Node(
             package='cell_bringup',
-            executable='adaptive_reallocator',
-            name='adaptive_reallocator',
+            executable='rl_reallocator',
+            name='rl_reallocator',
             output='screen'
         ),
         Node(
@@ -40,5 +40,12 @@ def generate_launch_description():
              name='continuous_workpiece_animator',
              output='screen'
         ),
+        Node(
+             package='cell_bringup',
+             executable='fault_predictor',
+             name='fault_predictor',
+             output='screen'
+        ),
+
 
     ])

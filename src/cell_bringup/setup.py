@@ -44,6 +44,8 @@ setup(
             'experiment_logger = cell_bringup.experiment_logger:main',
             'gazebo_workpiece_animator = cell_bringup.gazebo_workpiece_animator:main',
             'continuous_workpiece_animator = cell_bringup.continuous_workpiece_animator:main',
+            'fault_predictor = cell_bringup.fault_predictor:main',
+            'rl_reallocator = cell_bringup.rl_reallocator:main',
         ],
     },
 )

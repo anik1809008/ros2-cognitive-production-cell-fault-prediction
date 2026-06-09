@@ -39,7 +39,7 @@ socket.onmessage = (event) => {
     const delayStatus = data.delay_status || {};
     const decision = data.reallocation_decision || {};
     const score = data.resilience_score || {};
-
+    const prediction = data.fault_prediction || {};
     const cell1 = cellState.cell_1 || {};
     const cell2 = cellState.cell_2 || {};
 
@@ -66,6 +66,15 @@ socket.onmessage = (event) => {
     setText("sourceCell", decision.source_cell || "none");
     setText("targetCell", decision.target_cell || "none");
     setText("workloadShift", decision.workload_shift_percent);
+
+   setText("rlState", decision.rl_state);
+   setText("rlPolicy", decision.rl_policy_mode);
+   setText("rlReward", decision.rl_reward);
+   setText("rlRiskLevel", decision.risk_level);
+
+
+
+
     setText("recoveryAction", decision.recovery_action);
 
     setText("resilienceScore", score.digital_twin_resilience_score);
@@ -74,4 +83,11 @@ socket.onmessage = (event) => {
     setText("systemStatus", score.system_status);
 
     setText("rawJson", JSON.stringify(data, null, 2));
+    setText("cell1FaultProb", prediction.cell_1_fault_probability);
+    setText("cell2FaultProb", prediction.cell_2_fault_probability);
+    setText("predictedFaultCell", prediction.predicted_fault_cell || "none");
+    setText("riskLevel", prediction.risk_level); 
+    setText("timeToFault", prediction.time_to_fault_steps || "--");
+    setText("faultRecommendation", prediction.recommendation);
+   
 };
